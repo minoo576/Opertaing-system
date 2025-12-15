@@ -1,7 +1,7 @@
 GROUP 5 PROJECT
-==============================
+=======================================
 Virtual Memory & Page Fault Demonstration
-==============================
+=======================================
 
 This project shows how computers use Virtual Memory and Demand Paging.
 
@@ -92,4 +92,5 @@ We can also see this using:
 
 ----------------------------------
 END OF FILE
+
 ----------------------------------
