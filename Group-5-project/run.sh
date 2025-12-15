@@ -1,8 +1,7 @@
 #!/bin/bash
-# This script compiles and runs the C program.
-
 echo "Compiling vm_fault.c..."
-gcc -O2 -o vm_fault vm_fault.c
+gcc vm_fault.c -o compile
 
-echo "Running the program with 4GB..."
-/usr/bin/time -v ./vm_fault 4
+echo
+echo "Running program with 4 GB memory..."
+/usr/bin/time -v ./compile 4
